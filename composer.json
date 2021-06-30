@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "mohammad-shariq/laravel-remote",
+    "description": "Run artisan command on server and on local both at same time.",
     "keywords": [
-        ":vendor_name",
+        "Mohammad Shariq",
         "laravel",
-        "package_slug"
+        "laravel-remote"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/mohammad-shariq/laravel-remote",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Mohammad Shariq",
+            "email": "shariqx5@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "MohammadShariq\\LaravelRemote\\": "src",
+            "MohammadShariq\\LaravelRemote\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "MohammadShariq\\LaravelRemote\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "MohammadShariq\\LaravelRemote\\LaravelRemoteServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelRemote": "MohammadShariq\\LaravelRemote\\LaravelRemoteFacade"
             }
         }
     },
