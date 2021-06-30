@@ -2,9 +2,9 @@
 
 namespace MohammadShariq\LaravelRemote;
 
+use MohammadShariq\LaravelRemote\Commands\LaravelRemoteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use MohammadShariq\LaravelRemote\Commands\LaravelRemoteCommand;
 
 class LaravelRemoteServiceProvider extends PackageServiceProvider
 {
